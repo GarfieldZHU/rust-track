@@ -3,11 +3,11 @@ on:
   push:
     branches: [ master ]
     paths:
-    - 'exercise/**'
+    - 'exercises/**'
   pull_request:
     branches: [ master ]
     paths:
-    - 'exercise/**'
+    - 'exercises/**'
 
 jobs:
   build:

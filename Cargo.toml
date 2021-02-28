@@ -1,4 +1,5 @@
 [workspace]
 members = [
-    "exercises/hello-world",
+    "exercises/rust/hello-world",
+    "exercises/rust/reverse-string",
 ]

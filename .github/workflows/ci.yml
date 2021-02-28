@@ -1,11 +1,11 @@
 name: rust-track
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
     - 'exercises/**'
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths:
     - 'exercises/**'
 

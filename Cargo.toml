@@ -2,4 +2,5 @@
 members = [
     "exercises/rust/hello-world",
     "exercises/rust/reverse-string",
+    "exercises/rust/gigasecond",
 ]

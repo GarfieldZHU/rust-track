@@ -8,6 +8,7 @@ pub struct Clock {
 
 impl Clock {
     pub fn new(hours: i32, minutes: i32) -> Self {
+        // Round down for the minutes result in a negative hour to be added
         let add_hours = (minutes as f32 / 60 as f32).floor() as i32;
 
         Clock {

@@ -4,4 +4,5 @@ members = [
     "exercises/rust/reverse-string",
     "exercises/rust/gigasecond",
     "exercises/rust/clock",
+    "exercises/rust/anagram",
 ]

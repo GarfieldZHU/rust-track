@@ -5,4 +5,5 @@ members = [
     "exercises/rust/gigasecond",
     "exercises/rust/clock",
     "exercises/rust/anagram",
+    "exercises/rust/space-age",
 ]

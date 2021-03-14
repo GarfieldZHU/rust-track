@@ -72,7 +72,6 @@ fn superlist_at_start() {
 }
 
 #[test]
-#[ignore]
 fn superlist_in_middle() {
     assert_eq!(Comparison::Superlist, sublist(&[5, 4, 3, 2, 1], &[4, 3, 2]));
 }

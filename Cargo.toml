@@ -6,4 +6,5 @@ members = [
     "exercises/rust/clock",
     "exercises/rust/anagram",
     "exercises/rust/space-age",
+    "exercises/rust/sublist",
 ]

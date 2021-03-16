@@ -7,4 +7,5 @@ members = [
     "exercises/rust/anagram",
     "exercises/rust/space-age",
     "exercises/rust/sublist",
+    "exercises/rust/minesweeper",
 ]

@@ -9,4 +9,5 @@ members = [
     "exercises/rust/sublist",
     "exercises/rust/minesweeper",
     "exercises/rust/luhn",
+    "exercises/rust/parallel-letter-frequency",
 ]

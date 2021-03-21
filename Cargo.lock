@@ -72,6 +72,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "parallel-letter-frequency"
+version = "0.0.0"
+
+[[package]]
 name = "reverse_string"
 version = "1.2.0"
 dependencies = [

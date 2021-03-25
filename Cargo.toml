@@ -10,5 +10,5 @@ members = [
     "exercises/rust/minesweeper",
     "exercises/rust/luhn",
     "exercises/rust/parallel-letter-frequency",
-    "exercises/rust/macro",
+    "exercises/rust/macros",
 ]

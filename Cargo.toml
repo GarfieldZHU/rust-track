@@ -11,4 +11,5 @@ members = [
     "exercises/rust/luhn",
     "exercises/rust/parallel-letter-frequency",
     "exercises/rust/macros",
+    "exercises/rust/poker",
 ]

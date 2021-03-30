@@ -1,6 +1,12 @@
 #[macro_export]
 macro_rules! hashmap {
-    () => {
-        unimplemented!()
+    ( $( $k:expr => $v:expr ),* ) => {
+       {
+            let mut temp_map = HashMap::new();
+            $(
+                temp_map.insert(k, v);
+            )*
+            temp_map
+       }
     };
 }

@@ -51,7 +51,13 @@ impl <'a> PokerHand<'a> {
                 let faces: Vec<u8> = groups.iter().map(|g| g.0).collect();
                 let mut result = PokerType::HighCard;
                 // we may have an Ace-first straight
-                if faces
+                if faces[..] == [14, 5, 4, 3, 2] {
+                    // move the ace
+                    groups.remove(0);
+                    groups.push((1, 1));
+                    result = PokerType::Straight;
+                // we may have any other straight
+                } else if faces
                     .iter()
                     .cloned()
                     .eq((faces[faces.len() - 1]..=faces[0]).rev())
